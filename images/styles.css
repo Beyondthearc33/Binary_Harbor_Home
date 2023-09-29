@@ -1,0 +1,32 @@
+/* .div-side {*/
+/*    background-image: linear-gradient(to top, #b005fb, #e101ff);*/
+/*     --bs-bg-opacity: 0.2;*/
+/*     !*width: 100%;*!*/
+/*    !*height: 100%;*!*/
+/*    !* margin: 0;*!*/
+/*    !* padding: 0;*!*/
+
+/*}*/
+p   {
+    text-indent: 50px;
+    font-weight: bolder;
+    font-family: "Roboto Light", "Roboto Thin";
+}
+
+.btn {
+    --bs-btn-hover-bg: #e101ff;
+    border-color: #b005fb;
+    --bs-btn-hover-border-color: #b005fb;
+}
+.btn:focus,
+.btn.focus{
+    color: #fff;
+    border-color: #b005fb;
+}
+/*
+
+Logo colors:
+light: #e101ff
+dark: #b005fb
+
+*/

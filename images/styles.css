@@ -1,22 +1,22 @@
-/* .div-side {*/
-/*    background-image: linear-gradient(to top, #b005fb, #e101ff);*/
-/*     --bs-bg-opacity: 0.2;*/
-/*     !*width: 100%;*!*/
-/*    !*height: 100%;*!*/
-/*    !* margin: 0;*!*/
-/*    !* padding: 0;*!*/
+.navbar {
+    background-image: linear-gradient(to right, #e101ff, black);
+     --bs-bg-opacity: 0.2;
+     /*width: 100%;*/
+    /*height: 100%;*/
+    /* margin: 0;*/
+    /* padding: 0;*/
 
-/*}*/
+}
 p   {
     text-indent: 50px;
-    font-weight: bolder;
-    font-family: "Roboto Light", "Roboto Thin";
+    /*font-family: "Roboto Thin";*/
 }
 
 .btn {
     --bs-btn-hover-bg: #e101ff;
     border-color: #b005fb;
     --bs-btn-hover-border-color: #b005fb;
+    color: lightgray;
 }
 .btn:focus,
 .btn.focus{

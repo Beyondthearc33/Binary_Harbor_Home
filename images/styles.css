@@ -1,6 +1,6 @@
 .navbar {
-    background-image: linear-gradient(to right, #e101ff, black);
-     --bs-bg-opacity: 0.2;
+    /*background-image: linear-gradient(to right, rgba(225, 1, 255, 0.7), black);*/
+    /* --bs-bg-opacity: 0.2;*/
      /*width: 100%;*/
     /*height: 100%;*/
     /* margin: 0;*/
@@ -17,12 +17,24 @@ p   {
     border-color: #b005fb;
     --bs-btn-hover-border-color: #b005fb;
     color: lightgray;
+    --bs-btn-active-bg: #b005fb;
+    --bs-btn-active-border-color: #b005fb;
 }
 .btn:focus,
 .btn.focus{
     color: #fff;
     border-color: #b005fb;
 }
+
+.btn-accordion {
+    /*background-color: #C3B1E1;*/
+    --bs-btn-hover-bg: #C3B1E1;
+    --bs-btn-active-bg: #C3B1E1;
+    --bs-accordion-active-bg: rgba(225, 1, 255, 0.10);
+    --bs-accordion-btn-focus-box-shadow: #b005fb;
+}
+
+
 /*
 
 Logo colors:

@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="images/styles.css">
+    <link rel="stylesheet" href="recipes_styles.css">
     <title>Welcome to Binary Harbor</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!--    optional "dark mode": nav navbarv2 navbar-expand-lg navbar-dark-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a href="Home.html">
-                <img src="images/Low_Res_BinaryHarbor_Logo-removebg-preview.png"
+                <img src="images/Logo_AllBlack.svg"
                      alt="Binary Harbor Logo"
                      height="100"
                      loading="lazy">
@@ -53,39 +53,45 @@
         </div>
     </nav>
 </head>
-<body >
+<body  style="background-color: rgba(211,211,211,0.3)">
 <div class="container text-center" >
     <div class="row">
         <div class="col">
 <!--            Add left side menu here-->
         </div>
-        <div class="col-8">
-            <h1 class="display-3 ">Three Bean Salad</h1>
-<!--            Accordion starts here-->
-            <div class="accordion" id="accordionPanelsRecipeInfo">
+        <div class="col-8" style="margin-top: 5%">
+            <h3 class="display-4 text-start">Three Bean Salad</h3>
+            <div class="align-content-center">
+                <img src="images/ThreeBeanSaladBanner.jpg" class="rounded" style="width: 100%; margin-bottom: 3%" alt="Three bean salad">
+
+            </div>
+
+            <!--            Accordion starts here-->
+            <div class="accordion" id="accordionPanelsRecipeInfo" style="margin-bottom: 3%">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button btn-accordion" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                 aria-controls="panelsStayOpen-collapseOne"
-                                style="background-image: linear-gradient(to right, #e101ff, black);">
+                                style="">
                             Overview
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These classes
-                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                            does limit overflow.
+                            <ul class="text-start" style="margin-top: 2%; list-style-type: none">
+                                <li>Time: 20-30 minutes</li>
+                                <li>Serving Size: idfk</li>
+                                <li>Yields: 10 servings</li>
+                                <li>Calories: idk I'm not a nutritionist</li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed btn-accordion" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseTwo">
                             Ingredients
@@ -93,18 +99,45 @@
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These classes
-                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                            does limit overflow.
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <ul class="text-start">
+                                            <label style="margin-bottom: 1%">Salad:</label>
+                                            <li> 1 red bell pepper, minced</li>
+                                            <li> 2 celery stalks, minced</li>
+                                            <li> 3 mini cucumbers, minced</li>
+                                            <li> 3 tbsp red onion, minced</li>
+                                            <li> 0.25 cup parsley, finely chopped</li>
+                                            <li> 1 can corn, drained</li>
+                                            <li> 1 can canellini beans, drained and rinsed
+                                            <li> 1 can garbanzo beans, drained and rinsed</li>
+                                            <li> 1 can red kidney beans, drained and rinsed</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <ul class="text-start">
+                                            <label style="margin-bottom: 1%">Dressing:</label>
+                                            <li> 0.25 cup extra virgin olive oil</li>
+                                            <li> 0.25 cup red wine vinegar</li>
+                                            <li> 0.5 lemon, juiced</li>
+                                            <li> 2 cloves garlic, grated</li>
+                                            <li> 1 tbsp dijon mustard</li>
+                                            <li> 2 tsp honey</li>
+                                            <li> salt and pepper to taste</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed btn-accordion" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseThree">
                             Directions
@@ -112,12 +145,13 @@
                     </h2>
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These classes
-                            control the overall appearance, as well as the showing and hiding via CSS transitions. You
-                            can modify any of this with custom CSS or overriding our default variables. It's also worth
-                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the
-                            transition does limit overflow.
+                            <ol class="text-start">
+                                <li>Add juiced lemon and grated garlic to a small bowl and let sid while you chop veggies.</li>
+                                <li>Add chopped veggies and beans to a large bowl.</li>
+                                <li>Add the garlicy lemon juice and the rest of the dressing ingredients to a jar or shaker cup and shake well.</li>
+                                <li>Poor dressing over the salad and toss.</li>
+                                <li>Serve with tortilla chips and enjoy!</li>
+                            </ol>
                         </div>
                     </div>
                 </div>

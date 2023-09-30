@@ -2,10 +2,10 @@ const searchInput = document.getElementById('searchInput');
 const resultsList = document.getElementById('results');
 
 const items = [
-    ['Cake', 'Home.html'],
-    ['Sweet Pork', 'Home.html'],
-    ['Beans Soup', 'Home.html'],
-    ['Shepards Pie', 'Home.html'],
+    ['Cake', 'index.html'],
+    ['Sweet Pork', 'index.html'],
+    ['Beans Soup', 'index.html'],
+    ['Shepards Pie', 'index.html'],
     ['Three Bean Salad', 'Three_Bean_Salad_Recipe_Page.html']
 
     // Add more items as needed

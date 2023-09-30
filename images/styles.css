@@ -38,6 +38,16 @@ p   {
     list-style-type: none;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+    color: #b005fb;
+}
+
+input:active {
+    border-color: #b005fb;
+
+}
 /*
 
 Logo colors:

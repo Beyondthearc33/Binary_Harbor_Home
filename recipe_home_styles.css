@@ -1,0 +1,17 @@
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateX(5px) translateY(-2%);
+    filter: drop-shadow(0px 0px 0px rgba(225, 1, 255, 0.04)) drop-shadow(0px 50px 100px rgba(225, 1, 255, 0.08)) drop-shadow(0px 30px 60px rgba(225, 1, 255, 0.16));
+}
+
+.btn {
+    --bs-btn-hover-bg: #e101ff;
+    border-color: #b005fb;
+    --bs-btn-hover-border-color: #b005fb;
+    color: black;
+    --bs-btn-active-bg: #b005fb;
+    --bs-btn-active-border-color: #b005fb;
+}

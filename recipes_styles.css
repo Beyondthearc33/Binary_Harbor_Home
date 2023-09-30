@@ -26,3 +26,6 @@
     --bs-btn-active-bg: #b005fb;
     --bs-btn-active-border-color: #b005fb;
 }
+.disclaimers {
+    justify-content: center;
+}

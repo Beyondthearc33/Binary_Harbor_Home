@@ -2,8 +2,10 @@
     /*background-color: #C3B1E1;*/
     --bs-btn-hover-bg: #C3B1E1;
     --bs-btn-active-bg: #C3B1E1;
-    --bs-accordion-active-bg: rgba(225, 1, 255, 0.10);
+    --bs-accordion-active-bg: rgba(176, 5, 251, 0.3);
     --bs-accordion-btn-focus-box-shadow: #b005fb;
+    background-color: rgba(225, 1, 255, 0.10);
+
 }
 
 .navbar {
